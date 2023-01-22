@@ -10,7 +10,7 @@ RewriteBase /test234/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /test234/index.php [L]
+RewriteRule . /test234/readme.html [L]
 </IfModule>
 
 # END WordPress
